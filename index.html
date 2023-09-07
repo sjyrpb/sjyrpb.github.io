@@ -48,11 +48,12 @@
                         <div>Github</div>
                     </a>
                     <a href="../pdf/校赛项目.pdf" class="link-item">
-                        <div class="link-icon"><i class="fa fa-qq"></i></div>
+                        <div class="link-icon"><i class="fa fa-file-pdf-o"></i></div>
                         <div>校赛项目</div>
                     </a>
+                    
                     <a href="../pdf/省赛项目.pdf" class="link-item">
-                        <div class="link-icon"><i class="fa fa-telegram"></i></div>
+                        <div class="link-icon"><i class="fa fa-file-pdf-o"></i></div>
                         <div>省赛项目</div>
                     </a>
                     <!-- <a href="#" class="link-item">
@@ -110,17 +111,23 @@
     (function () {
         var feedType = "json";
         var feedPath = "feed.php";
-        var bgArr = [{
-            "url": "static/img/background-1.jpg",
-            "thumb": "static/img/background-1-thumb.jpg"
-        }, {
-            "url": "static/img/background-2.jpg",
-            "thumb": "static/img/background-2-thumb.jpg"
-        }];
+        var bgArr = [
+        //     {
+        //     "url": "static/img/background-1.jpg",
+        //     "thumb": "static/img/background-1-thumb.jpg"
+        // }, {
+        //     "url": "static/img/background-2.jpg",
+        //     "thumb": "static/img/background-2-thumb.jpg"
+        // }
+        {
+            "url": "static/img/preview.jpg",
+            "thumb": "static/img/preview.jpg"
+        }
+    ];
         var senArr = [
             {
-                ch: ["This is an example."],
-                py: ["This is an example."],
+                ch: ["This is a homepage."],
+                py: ["This is a homepage."],
             }, {
                 ch: ["这是", "一个", "主页", "."],
                 py: ["zhe'shi", "yi'ge", "zhu'ye", "."],
